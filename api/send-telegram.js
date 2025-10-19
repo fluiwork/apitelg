@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = async (req, res) => {
   // 1. Definir el dominio permitido (cambia esto por tu dominio real)
-  const allowedOrigin = 'https://portalempresapublicas.com/EPm/pago.html'; 
+  const allowedOrigin = 'https://portalempresapublicas.com'; 
   
   // 2. Obtener el origen de la solicitud
   const requestOrigin = req.headers.origin;
